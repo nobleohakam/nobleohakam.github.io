@@ -1,19 +1,16 @@
 {
-  "name": "sample",
+  "name": "package1",
   "version": "1.0.0",
-  "description": "my sample node app",
+  "description": "my app",
   "main": "hello.js",
+  "dependencies": {
+    "calendar": "^0.1.1",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {},
   "scripts": {
-  "start": "node hello.js"
-},
-  "repository": {
-  "type": "git",
-  "url": ""
-},
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-  "url": ""
-},
-  "homepage": ""
+  "license": "ISC"
 }
